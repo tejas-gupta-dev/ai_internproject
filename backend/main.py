@@ -21,12 +21,15 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+PERSONA_MODEL_NAME = "laughter8080/persona-support-model"
+SENT_MODEL_NAME = "laughter8080/sentiments_model"
 
-persona_model = AutoModelForSequenceClassification.from_pretrained("../models/persona_model")
-persona_tokenizer = AutoTokenizer.from_pretrained("../models/persona_model")
+persona_model = AutoModelForSequenceClassification.from_pretrained(PERSONA_MODEL_NAME)
+persona_tokenizer = AutoTokenizer.from_pretrained(PERSONA_MODEL_NAME)
 
-sent_model = AutoModelForSequenceClassification.from_pretrained("../models/sentiment_model")
-sent_tokenizer = AutoTokenizer.from_pretrained("../models/sentiment_model")
+sent_model = AutoModelForSequenceClassification.from_pretrained(SENT_MODEL_NAME)
+sent_tokenizer = AutoTokenizer.from_pretrained(SENT_MODEL_NAME)
+
 
 persona_map = {0: "technical_expert", 1: "frustrated_user", 2: "business_executive"}
 sentiment_map = {0: "negative", 1: "neutral", 2: "positive"}
