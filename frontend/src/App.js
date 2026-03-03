@@ -19,7 +19,7 @@ function App() {
   ];
 
   useEffect(() => {
-    ws.current = new WebSocket("ws://127.0.0.1:8000/ws");
+    ws.current = new WebSocket("wss://https://ai-internproject.onrender.com/ws");
 
     ws.current.onmessage = (event) => {
       const data = JSON.parse(event.data);
