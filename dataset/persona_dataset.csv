@@ -1,0 +1,58 @@
+text,label
+"I am getting a 500 internal server error after deploying to production",0
+"The API response time has increased significantly after the latest update",0
+"My database queries are taking too long to execute",0
+"The authentication middleware seems misconfigured",0
+"I am facing a CORS issue while calling the backend service",0
+"The logs show a null pointer exception in the payment module",0
+"The deployment pipeline is failing during the build stage",0
+"Can you share the exact API specification for this endpoint?",0
+"The system is throwing a timeout exception under load",0
+"I suspect there is a memory leak in the service",0
+"The webhook integration is not triggering properly",0
+"I am receiving a 403 forbidden response from the server",0
+"The SDK version seems incompatible with our current setup",0
+"The microservice architecture is not scaling as expected",0
+"The token validation logic is failing intermittently",0
+
+"Nothing is working and I am extremely frustrated",1
+"I am very disappointed with this product",1
+"This is the third time I am facing this issue",1
+"I am tired of repeating the same problem again and again",1
+"Why is this still not fixed?",1
+"I cannot use the service at all right now",1
+"This experience has been terrible so far",1
+"I am really upset with the support quality",1
+"I have wasted so much time because of this issue",1
+"This is honestly unacceptable",1
+"I am fed up with these constant errors",1
+"The app keeps crashing and it is driving me crazy",1
+"I need this resolved immediately",1
+"This is very frustrating and disappointing",1
+"I regret choosing this product",1
+"I am not satisfied with the service at all",1
+"This issue is causing serious inconvenience",1
+"I cannot complete my task because of your system",1
+"Everything seems broken after the update",1
+"I am losing patience with this platform",1
+
+"What is the ROI impact of this solution?",2
+"How will this scale for enterprise clients?",2
+"Can you explain the business benefits of upgrading?",2
+"What kind of performance improvements can we expect?",2
+"How does this solution improve operational efficiency?",2
+"What is the expected cost optimization from this feature?",2
+"How will this impact our long term strategy?",2
+"Is this compliant with enterprise security standards?",2
+"What are the scalability limitations at higher traffic?",2
+"How does this compare with competitor offerings?",2
+"Can you provide a high-level architectural overview?",2
+"What is the SLA for enterprise customers?",2
+"How will this improve overall system reliability?",2
+"What metrics can we track to measure success?",2
+"Is this feature aligned with industry best practices?",2
+"How does this affect our revenue growth potential?",2
+"What is the roadmap for future enterprise features?",2
+"Can you summarize the strategic value of this update?",2
+"How does this reduce operational risk?",2
+"What are the financial implications of adopting this solution?",2
